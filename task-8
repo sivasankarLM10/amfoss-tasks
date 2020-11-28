@@ -1,28 +1,21 @@
-import argparse
+perceval git --json-line https://github.com/amfoss/cms >> commits.json
 
-from perceval.backends.core.github import GitHub
+[2020-11-28 22:04:11,115] - Sir Perceval is on his quest.
+[2020-11-28 22:04:11,116] - Fetching commits: 'https://github.com/amfoss/cms' git repository from 1970-01-01 00:00:00+00:00 to 2100-01-01 00:00:00+00:00; all branches
+[2020-11-28 22:04:12,792] - Fetch process completed: 435 commits fetched
+[2020-11-28 22:04:12,792] - Summary of results
 
-# Parse command line arguments
-parser = argparse.ArgumentParser(
-    description = "Simple parser for GitHub issues and pull requests"
-    )
-parser.add_argument("-t", "--token",
-                    '--nargs', nargs='+',
-                    help = "GitHub token")
-parser.add_argument("-r", "--repo",
-                    help = "GitHub repository, as 'owner/repo'")
-args = parser.parse_args()
+	   Total items: 	435
+	Items produced: 	435
+	 Items skipped: 	0
 
-# Owner and repository names
-(owner, repo) = args.repo.split('/')
+	Last item UUID: 	19978698491180912c8ddf685e6060ea8f36c9e1
+	Last item date: 	2020-10-27 21:39:59+00:00
 
-# create a Git object, pointing to repo_url, using repo_dir for cloning
-repo = GitHub(owner=owner, repository=repo, api_token=args.token)
-# fetch all issues/pull requests as an iterator, and iterate it printing
-# their number, and whether they are issues or pull requests
-for item in repo.fetch():
-    if 'pull_request' in item['data']:
-        kind = 'Pull request'
-    else:
-        kind = 'Issue'
-    print(item['data']['number'], ':', kind)
+	Min. item date: 	2019-01-28 11:56:17+00:00
+	Max. item date: 	2020-10-27 21:39:59+00:00
+
+	Min. offset: 	-	Max. offset: 	-	Last offset: 	-
+
+
+[2020-11-28 22:04:12,793] - Sir Perceval completed his quest.
