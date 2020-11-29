@@ -1,0 +1,36 @@
+#include <cs50.h>  
+#include <stdio.h>  
+int main(void)  
+{      
+    float change;  
+    do  
+    {  
+        change = get_float("change owed = ");  
+    } while (change < 0); 
+
+    int coins = 0;  
+    while (change >= 0.25)  
+    {  
+        coins ++;  
+        change = change - 0.25;  
+    }  
+
+    while (change >= 0.10)  
+    {  
+        coins ++;  
+        change = change - 0.10;  
+    }  
+
+    while (change >= 0.05)  
+    {  
+        coins ++;  
+        change = change - 0.05;  
+    }  
+
+    while (change >= 0.01)  
+    {  
+        coins ++;  
+        change = change - 0.01;  
+    }  
+    printf ("%i\n", coins);  
+} 
