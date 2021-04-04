@@ -3,9 +3,8 @@ My name is Siva Sankar A from Trivandum,kerala.
 
 |Task	    | Description                                 |
 |---------|---------------------------------------------|
-|Task-00  | Installing Ubuntu,(Done with Ease)          |
-|Task-01  | Script to star all repos of amfoss(with     |
-|         | Seniors Done)                               |
+|Task-00  | Installing Ubuntu,(Done)          |
+|Task-01  | Script to star all repos of amfoss(Done)    |
 |Task-02	| Register your nick in IRC Freenode(Done)    |
 |Task-03	| Codeforces and Hackerrank problems(pending) |
 |Task-04  | Debugging Derbies(pending)                  |
@@ -18,5 +17,5 @@ My name is Siva Sankar A from Trivandum,kerala.
 |Task-11	| Poster Design(Done)                         |
 |Task-12	| if math was fun(Done)                       |
 |Task-13  | Circuit Design(Pending)(It takes More time) |
-|Task-14  | Bandit(Completed with Ease)                 |
-|Task-15  | Project Euler(Completed With some headaches)|
+|Task-14  | Bandit(Completed)                           |
+|Task-15  | Project Euler(Completed)                    |
