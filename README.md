@@ -6,8 +6,7 @@ My name is Siva Sankar A from Trivandum,kerala.
 |Task-00  | Installing Ubuntu,(Done with Ease)          |
 |Task-01  | Script to star all repos of amfoss(with     |
 |         | Seniors Done)                               |
-|Task-02	| Register your nick in IRC Freenode(Googled) |
-|           and Done                                    |
+|Task-02	| Register your nick in IRC Freenode(Done)    |
 |Task-03	| Codeforces and Hackerrank problems(pending) |
 |Task-04  | Debugging Derbies(pending)                  |
 |Task-05	| Rustic Scrapper(Done)                       |
